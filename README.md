@@ -1,1 +1,1 @@
-#Práctica de gráficas de Star Wars
+Práctica de gráficas de Star Wars
