@@ -1,1 +1,1 @@
-# graficas-starwars
+#Práctica de gráficas de Star Wars
