@@ -1,0 +1,25 @@
+.ct-series-a .ct-bar {
+    /* Colour of your bars */
+    stroke: rgb(30, 206, 83);
+    /* The width of your bars */
+    stroke-width: 10px;
+    /* Maybe you like round corners on your bars? */
+    stroke-linecap: round;
+  }
+
+.ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: rgb(8, 0, 255);
+    /* Control the thikness of your lines */
+    stroke-width: 2px;
+  }
+  
+  /* This selector overrides the points style on line charts. Points on line charts are actually just very short strokes. This allows you to customize even the point size in CSS */
+  .ct-series-a .ct-point {
+    /* Colour of your points */
+    stroke: rgb(8, 0, 255);
+    /* Size of your points */
+    stroke-width: 15px;
+    /* Make your points appear as squares */
+    stroke-linecap: round;
+  }
