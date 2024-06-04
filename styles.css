@@ -23,3 +23,24 @@
     /* Make your points appear as squares */
     stroke-linecap: round;
   }
+
+  h2 {
+    text-align: center;
+    background-color: aqua;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+#grafica1 {
+  margin: 20px;
+}
+
+#grafica2 {
+  margin-top: 10px;
+}
+
+.ct-chart {
+  padding:20px;
+}
