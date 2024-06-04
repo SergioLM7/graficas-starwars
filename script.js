@@ -1,3 +1,5 @@
+
+
 //Función de acceso a la API para las películas
 const accesoAPIPeliculas = async () => {
     try {
@@ -23,12 +25,16 @@ const datosPintar = async () => {
     const datos = await accesoAPIPeliculas();
     const arrayTitulos = [];
     const arrayEstreno = [];
+
+
     datos.forEach((pelicula) => {
         let filmName = pelicula.title;
         let filmYear = pelicula.release_date.split('-')[0];
         arrayTitulos.push(filmName);
         arrayEstreno.push(filmYear);
     });
+
+   
 
     const data = {
         labels: arrayTitulos,
@@ -62,7 +68,7 @@ const accesoAPIPersonajes = async() => {
             method: 'GET',
         });
         if (!respuesta2.ok) {
-            return Promise.reject(new Error(`¡Error HTTP! Estado: ${respuesta.status}`));
+            return Promise.reject(new Error(`¡Error HTTP! Estado: ${respuesta2.status}`));
         } else {
             let respuesta2OK = await respuesta2.json();
             return respuesta2OK.results; 
