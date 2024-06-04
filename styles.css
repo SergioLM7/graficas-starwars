@@ -32,3 +32,15 @@
   h3 {
     text-align: center;
   }
+
+#grafica1 {
+  margin: 20px;
+}
+
+#grafica2 {
+  margin-top: 10px;
+}
+
+.ct-chart {
+  padding:20px;
+}
